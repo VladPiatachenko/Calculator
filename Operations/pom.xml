@@ -34,11 +34,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
     <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-        <exec.mainClass>sumdu.edu.ua.operations.view.Calculator</exec.mainClass>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
     </properties>
 </project>
