@@ -1,8 +1,9 @@
 name: Calculator Test
 on: push
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Get the code
-      run: echo searching code...
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        run: echo searching code...
     
