@@ -9,7 +9,7 @@ import sumdu.edu.ua.operations.model.Vector;
 
 /**
  *
- * @author Oksana
+ * @author Erlkonig
  */
 public class Calculator extends javax.swing.JFrame {
 

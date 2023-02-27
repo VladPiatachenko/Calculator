@@ -8,7 +8,7 @@ import sumdu.edu.ua.operations.model.Vector;
 
 /**
  *
- * @author Oksana
+ * @author Erlkonig
  */
 public class Operations {
     
