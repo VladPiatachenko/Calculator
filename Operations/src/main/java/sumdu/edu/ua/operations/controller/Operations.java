@@ -15,5 +15,7 @@ public class Operations {
     public static Vector sum(Vector a, Vector b){
         return new Vector(a.getX()+b.getX(),a.getY()+b.getY());
     }
-    
+    public static Vector subt(Vector a, Vector b){
+        return new Vector(a.getX()-b.getX(),a.getY()-b.getY());
+    }
 }
