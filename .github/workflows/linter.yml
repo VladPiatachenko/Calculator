@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
     - name: Lint Code
-      uses: github/super-linter@v3
+      uses: github/super-linter@v4
       env:
         VALIDATE_ALL_CODEBASE: false
         DEFAULT_BRANCH: main
