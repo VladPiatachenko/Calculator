@@ -30,6 +30,6 @@ public class OperationsTest {
         Vector c=new Vector(a.getX()-b.getX(),a.getY()-b.getY());
         System.out.println(c.toString());
         System.out.println(Operations.subt(a,b).toString());
-        assertEquals(c.toString(),Operations.subt(a,b).toString());
+        assertEquals(c.toString(),Operations.sum(a,b).toString());
         }
 }
