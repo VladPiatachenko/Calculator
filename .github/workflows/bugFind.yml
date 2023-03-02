@@ -11,10 +11,9 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '19'
-        distribution: 'temurin'
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file Operations/pom.xml 
     - uses: jwgmeligmeyling/spotbugs-github-action@master
       with:
-        path: '**/spotbugsXml.xml'
+        path: '**Operations/spotbugsXml.xml'
