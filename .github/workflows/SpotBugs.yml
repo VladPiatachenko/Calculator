@@ -1,4 +1,4 @@
-name: Java CI
+name: Java CI SpotBugs
 
 on: [push]
 
@@ -14,11 +14,11 @@ jobs:
     - uses: actions/cache@v1
       with:
         path: ~/.m2/repository
-        key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+        key: ${{ runner.os }}-maven-${{ hashFiles('**Operations/pom.xml') }}
         restore-keys: |
           ${{ runner.os }}-maven-
     - name: Build with Maven
-      run: mvn -B package --file Operations/pom.xml verify spotbugs:spotbugs
+      run: mvn -B verify spotbugs:spotbugs
     - uses: jwgmeligmeyling/spotbugs-github-action@master
       with:
         path: '**/spotbugsXml.xml'
